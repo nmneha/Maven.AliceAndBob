@@ -13,6 +13,14 @@ public class Main {
             System.out.println("Hello, Alice.");
         } else if (name.equals("Bob")) {
             System.out.print("Hello, Bob.");
+        } else if (name.equals("alice")){
+            System.out.print("Hello, alice.");
+        } else if (name.equals("bob")) {
+            System.out.println("Hello, bob.");
+        } else if (name.equals("BOB")) {
+            System.out.println("Hello, BOB.");
+        } else if (name.equals("ALICE")) {
+            System.out.println("Hello, ALICE.");
         } else {
             System.out.println("You are not ALice or Bob.");
         }
